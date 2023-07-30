@@ -474,7 +474,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="fotter-logo-block">
+        <div class="footer-logo-block">
           <a href="./index.html" class="logo-footer link"
             >Web<span class="logo-second-footer">Studio</span>
           </a>
@@ -536,6 +536,24 @@
             </li>
           </ul>
         </div>
+        <form action="subscribe" class="footer-form">
+          <fieldset class="form-set-intup">
+            <label class="footer-form-label" for="usr-email">Subscribe</label>
+            <input
+              class="footer-form-input"
+              type="email"
+              id="email"
+              name="usr-email"
+              placeholder="E-mail"
+            />
+          </fieldset>
+          <button class="footer-form-btn" type="submit">
+            Subscribe
+            <svg class="footer-subscribe-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div data-modal class="data-modal is-hidden">
