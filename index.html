@@ -537,7 +537,7 @@
           </ul>
         </div>
         <form action="subscribe" class="footer-form">
-          <fieldset class="form-set-intup">
+          <div class="form-set-intup">
             <label class="footer-form-label" for="usr-email">Subscribe</label>
             <input
               class="footer-form-input"
@@ -545,8 +545,9 @@
               id="email"
               name="usr-email"
               placeholder="E-mail"
+              required
             />
-          </fieldset>
+          </div>
           <button class="footer-form-btn" type="submit">
             Subscribe
             <svg class="footer-subscribe-icon" width="24" height="24">
@@ -568,6 +569,87 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <h3 class="form-title">
+          Leave your contacts and we will call you back
+        </h3>
+        <form action="order" class="order-form">
+          <fieldset class="order-form-set">
+            <div class="order-form-set-column">
+              <label for="order-usr-name" class="order-form-label"> Name</label>
+              <svg class="order-form-icon" widht="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+              <input
+                type="text"
+                name="order-usr-name"
+                id="order-usr-name"
+                class="order-form-inpt"
+                required
+              />
+            </div>
+            <div class="order-form-set-column">
+              <label for="order-usr-phone" class="order-form-label">
+                Phone</label
+              >
+              <svg class="order-form-icon" widht="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input
+                type="tel"
+                name="order-usr-phone"
+                id="order-usr-phone"
+                class="order-form-inpt"
+                required
+              />
+            </div>
+            <div class="order-form-set-column">
+              <label for="order-usr-email" class="order-form-label">
+                E-mail</label
+              >
+              <svg class="order-form-icon" widht="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input
+                type="email"
+                name="order-usr-email"
+                id="order-usr-email"
+                class="order-form-inpt"
+                required
+              />
+            </div>
+            <div class="order-form-set-column">
+              <label for="order-usr-desc" class="order-form-label"
+                >Comment</label
+              >
+              <textarea
+                name="order-usr-desc"
+                id="order-usr-desc"
+                rows="7"
+                class="order-form-inpt order-form-desc"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </fieldset>
+          <div class="order-form-set-row">
+            <input
+              class="is-hidden"
+              type="checkbox"
+              name="order-pp"
+              id="order-pp"
+              required
+            />
+            <svg class="order-form-checkbox-icon" widht="16" height="16">
+              <use href="./images/icons.svg#icon-active-checkbox"></use>
+            </svg>
+            <label class="order-form-label" for="order-pp"
+              >I accept the terms and conditions of the
+              <a class="order-form-checkbox-link" href="/"
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button type="submit" class="order-form-btn">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
