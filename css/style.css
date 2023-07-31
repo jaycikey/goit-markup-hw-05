@@ -784,8 +784,8 @@ img {
   border-color: var(--iris);
 }
 
-.order-form-set-column:hover .order-form-icon,
-.order-form-set-column:focus .order-form-icon {
+.order-form-inpt:hover + .order-form-icon,
+.order-form-inpt:focus + .order-form-icon {
   fill: var(--iris);
 }
 
