@@ -746,7 +746,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--lightslateca);
+  color: var(--light-slat);
   display: block;
   margin-bottom: 4px;
 }
@@ -830,6 +830,7 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
 }
 
 .order-form-checkbox-icon {
