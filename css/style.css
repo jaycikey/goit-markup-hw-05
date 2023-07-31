@@ -759,8 +759,9 @@ img {
   height: 24px;
   position: absolute;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  bottom: 8px;
   left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
   fill: var(--navyblue);
 }
 .order-form-inpt {
@@ -783,8 +784,8 @@ img {
   border-color: var(--iris);
 }
 
-.order-form-set-column:hover svg,
-.order-form-set-column:focus svg {
+.order-form-set-column:hover .order-form-icon,
+.order-form-set-column:focus .order-form-icon {
   fill: var(--iris);
 }
 
