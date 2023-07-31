@@ -325,25 +325,26 @@
             </li>
           </ul>
         </div>
-        <form action="subscribe" class="footer-form">
-          <div class="form-set-intup">
-            <label class="footer-form-label" for="usr-email">Subscribe</label>
-            <input
-              class="footer-form-input"
-              type="email"
-              id="usr-email"
-              name="usr-email"
-              placeholder="E-mail"
-              required
-            />
-          </div>
-          <button class="footer-form-btn" type="submit">
-            Subscribe
-            <svg class="footer-subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="footer-subscribe">
+          <p class="footer-text-second">Subscribe</p>
+          <form action="subscribe" class="footer-form">
+            <label class="footer-form-label" aria-label="E-mail">
+              <input
+                class="footer-form-input"
+                type="email"
+                name="usr-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="footer-form-btn" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
