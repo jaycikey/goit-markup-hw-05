@@ -741,6 +741,7 @@ img {
   margin-bottom: 8px;
   width: 100%;
 }
+
 .order-form-label {
   font-size: 12px;
   line-height: 1.17;
@@ -793,7 +794,16 @@ img {
   width: 100%;
 }
 
+.order-form-label-textarea {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slat);
+  display: block;
+}
+
 .order-form-textarea {
+  display: block;
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -831,6 +841,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .order-form-checkbox-icon {
@@ -866,7 +877,6 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
-  margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
 }
