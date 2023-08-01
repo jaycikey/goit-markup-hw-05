@@ -850,7 +850,7 @@ img {
   cursor: pointer;
 }
 
-.order-form-checkbox:checked + .order-form-label > .order-form-span {
+.order-form-checkbox:checked + .order-form-label-textarea > .order-form-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
